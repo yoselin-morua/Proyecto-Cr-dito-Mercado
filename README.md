@@ -4,15 +4,78 @@ Análisis de la estadística de crédito a nivel mercado del sector asegurador e
 
 ## Descripción del Proyecto
 
-Este proyecto realiza un análisis exploratorio y comparativo del mercado de crédito del sector asegurador en México, utilizando la información estadística publicada por la Comisión Nacional de Seguros y Fianzas (CNSF) a través del portal de Datos Abiertos del Gobierno de México.
+Este proyecto presenta un análisis exploratorio y analítico del riesgo de crédito enfocado en la emisión de pólizas, siniestros y siniestralidad del portafolio, con el objetivo de identificar patrones de riesgo, concentración de pérdidas y oportunidades de mejora en la gestión del portafolio.
 
-Los análisis se enfocan en dos dimensiones fundamentales del ramo de crédito:
+El análisis está orientado a un contexto financiero–asegurador / crediticio, utilizando datos del sector asegurador en México, la información estadística publicada por la Comisión Nacional de Seguros y Fianzas (CNSF) a través del portal de Datos Abiertos del Gobierno de México.
 
-Primas emitidas y retenidas (ingresos y actividad comercial).
+## Objetivo del proyecto
 
-Siniestros (pólizas con reclamaciones y pérdidas económicas).
+Evaluar la evolución del portafolio de crédito y su desempeño en términos de riesgo mediante:
 
-El objetivo es generar una visión clara sobre el comportamiento del mercado, identificar tendencias por año, país o entidad, y aportar información útil para la interpretación del desempeño del sector asegurador.
+El análisis del crecimiento de pólizas, prima emitida y suma asegurada.
+
+La identificación de los principales detonantes de siniestros.
+
+El estudio de la severidad, recuperación y siniestralidad del portafolio.
+
+La generación de conclusiones y recomendaciones accionables.
+
+
+## Estructura del análisis
+
+El proyecto se desarrolla en las siguientes etapas:
+
+
+1️⃣ **Análisis de emisiones**
+
+Evolución anual del número de pólizas.
+
+Comportamiento de la prima emitida.
+
+Crecimiento de la suma asegurada.
+
+Distribución de la prima por tipo de crédito.
+
+Objetivo: entender la expansión del portafolio y la exposición al riesgo.
+
+
+2️⃣ **Análisis de siniestros**
+
+Número de siniestros por tipo de insolvencia.
+
+Monto total de siniestros por tipo de insolvencia.
+
+Objetivo: identificar dónde se concentra el riesgo operativo y financiero.
+
+
+3️⃣ **Severidad y recuperación**
+
+Distribución de la severidad de los siniestros.
+
+Análisis de la tasa de recuperación. 
+
+Objetivo: evaluar el impacto económico real de los siniestros y la efectividad de los mecanismos de recuperación.
+
+
+4️⃣ **Siniestralidad del portafolio**
+
+Evolución de la tasa de siniestralidad a lo largo del tiempo.
+
+Objetivo: medir la salud financiera del portafolio y detectar periodos críticos o de mejora.
+
+
+
+## Principales insights
+
+El portafolio muestra un crecimiento sostenido en pólizas, prima y suma asegurada.
+
+El riesgo se encuentra altamente concentrado en la mora prolongada, tanto en frecuencia como en monto.
+
+La severidad presenta una cola larga, donde pocos siniestros explican gran parte de las pérdidas.
+
+La recuperación es prácticamente nula en la mayoría de los casos.
+
+La siniestralidad mejora significativamente a partir de 2021, aunque muestra señales de repunte reciente.
 
 
 
@@ -42,21 +105,6 @@ __Institución:__ Comisión Nacional de Seguros y Fianzas (CNSF)
 
 
 
-### Objetivos del Análisis
-
-Este proyecto pretende:
-
-* Realizar un análisis exploratorio de datos (EDA).
-
-* Comparar primas emitidas vs siniestros por año o entidad.
-
-* Identificar tendencias de comportamiento del mercado asegurador.
-
-* Generar visualizaciones claras y conclusiones interpretables.
-
-* Dejar una base reproducible para futuros análisis o modelos predictivos.
-
-
 
 
 ## 📄 Atribución de Datos
@@ -82,6 +130,13 @@ Consulta el archivo LICENSE para más detalles.
 
 
 
-__Autor__
+## Autor
 
-Proyecto realizado por Yoselin Morua — Analista de Datos
+Yoselin Morua Valdez
+Analista de datos | Enfoque en análisis financiero y riesgo
+
+📌 Nota final
+
+Este proyecto tiene fines analíticos y demostrativos, orientado a portafolio profesional y entrevistas técnicas, mostrando el uso de datos para la evaluación del riesgo y la toma de decisiones.
+
+
